@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.codetantra.com</title>
+    <link rel="stylesheet" href="website1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+         <div class="row">
+             <div class="">
+                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid" id="first_div_container">
+                        
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brilliance" viewBox="0 0 16 16">
+                            <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"/>
+                        </svg>
+                        <a class="navbar-brand" id="icon_message" href="#">CodeTantra</a>
+                        <div class="collapse navbar-collapse align_design" id="navbarNavDropdown" >
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"id="list_items" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                chattavenkatanarasimha2@gmail.com
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Update Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Change Password</a></li>
+                               
+                            </ul>
+                            </li>
+                            <li class="nav-item ">
+                            <a class="nav-link" id="list_items" href="#">Support</a>
+                            </li>
+                            <li class="nav-item logout_background">
+                            <a class="nav-link logout" id="logout"href="#">Logout
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/>
+                                    <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                                </svg>
+                            </a>
+                            </li>
+                            
+                        </ul>
+                        </div>
+                    </div>
+                    </nav>
+
+             </div>
+
+         </div>
+    </div>
+
+
+    <!--container means part 2 section-->
+    <div class="container dashboard-container">
+        <div class="row">
+
+        <!-- Courses -->
+            <div class="col-4">
+                <div class="dashboard-card">
+                    <button class="link-button" onclick="window.open('https://example.com/courses', '_blank')">
+                        <img src="https://svpcet.codetantra.com/images/i/undraw_web_developer_p3e5.svg" alt="Courses">
+                        <p>Click here to view all your courses/subjects</p>
+                        <div class="footer">Courses</div>
+                    </button>
+                </div>
+            </div>
+        
+
+    <!-- Tests -->
+            <div class="col-4">
+                <div class="dashboard-card">
+                    <a href="http://127.0.0.1:5500/my1.html">
+
+                        <img src="https://svpcet.codetantra.com/images/i/undraw_exams_g4ow.svg" alt="Tests">
+                        <p>Click here to view all your scheduled and completed tests</p>
+                        <div class="footer">Tests</div>
+                    </a>
+                </div>
+                
+            </div>
+
+    <!-- Programming Labs -->
+            <div class="col-4">
+                <div class="dashboard-card">
+                    <button class="link-button" onclick="window.open('https://example.com/courses', '_blank')">
+                        <img src="https://svpcet.codetantra.com/images/i/undraw_dev_focus_b9xo.svg" alt="Labs">
+                        <p>Click here to view all your programming labs</p>
+                        <div class="footer">Programming Labs</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container dashboard-container">
+        <div class="row">
+
+    <!-- Tools -->
+            <div class="col-4">
+                <div class="dashboard-card">
+                    <a href="http://127.0.0.1:5500/tools.html">
+                        <img src="https://svpcet.codetantra.com/images/i/undraw_Devices_re_dxae.svg" alt="Tools">
+                        <p>Click here to access tools.</p>
+                        <div class="footer">Tools</div>
+                    </a>
+                </div>
+            </div>
+
+    <!-- Help & Support -->
+            <div class="col-4">
+                <div class="dashboard-card">
+                    <button class="link-button" onclick="window.open('https://example.com/courses', '_blank')">
+                        <img src="https://svpcet.codetantra.com/images/i/undraw_contact_us_15o2.svg" alt="Support">
+                        <p>Click here to reach us</p>
+                        <div class="footer">Help & Support</div>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--4 part container-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                <p>
+                    <svg class="icon1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
+                    </svg> 
+                    2025  Copyright  <a href="http://www.codetantra.com" > Codetantra.com</a></p>
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
+    
+</body>
+</html>
